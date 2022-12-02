@@ -5,6 +5,7 @@ import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from 'react-icons/ai';
 import { FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 import { useRouter } from 'next/router';
 import { useTheme } from 'next-themes';
+import logoImg from './../public/assets/ismael_logo1.png';
 
 const Navbar = () => {
 	const [nav, setNav] = useState(false);
@@ -101,7 +102,7 @@ const Navbar = () => {
 				<div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
 					<Link href='/'>
 						<Image
-							src='/../public/assets/ismael_logo1.png'
+							src={logoImg}
 							alt='/'
 							width='120'
 							height='50'

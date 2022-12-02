@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import profileImg from './../public/assets/venice.jpeg';
 
 const About = () => {
 	return (
@@ -44,7 +45,7 @@ const About = () => {
 					{/* insert profile picture */}
 					<Image
 						className='rounded-xl'
-						src='/../public/assets/venice.jpeg'
+						src={profileImg}
 						alt='/'
 						width='400'
 						height='50'
