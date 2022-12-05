@@ -55,7 +55,7 @@ const Hero = () => {
 						</Link>
 					</div>
 					<div className='flex items-center justify-center py-3 mt-2'>
-						<a href='CV.pdf' download='ismael resume'>
+						<a href='resume.pdf' download='ismael resume'>
 							<button className='flex justify-center items-center px-6 py-3 gap-x-2 active:translate-y-1 active:shadow-lg active:scale-100 active:transition-all active:duration-500 '>
 								Resume <FiDownload size={30} className='pb-1' />
 							</button>

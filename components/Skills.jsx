@@ -8,6 +8,10 @@ import reactImg from './../public/assets/skills/react.png';
 import mongoImg from './../public/assets/skills/mongo.png';
 import nodeImg from './../public/assets/skills/node.png';
 import pythonImg from './../public/assets/skills/python.png';
+import gitImg from './../public/assets/skills/git.png';
+import javaImg from './../public/assets/skills/java.png';
+import jenkinsImg from './../public/assets/skills/jenkins.png';
+import dockerImg from './../public/assets/skills/docker.png';
 
 const Skills = () => {
 	return (
@@ -98,6 +102,46 @@ const Skills = () => {
 							</div>
 							<div className='flex flex-col items-center justify-center'>
 								<h3>NodeJs</h3>
+							</div>
+						</div>
+					</div>
+					<div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 dark:bg-slate-600'>
+						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
+							<div className='m-auto'>
+								<Image src={javaImg} alt='/' width='64' height='64' />
+							</div>
+							<div className='flex flex-col items-center justify-center'>
+								<h3>Java</h3>
+							</div>
+						</div>
+					</div>
+					<div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 dark:bg-slate-600'>
+						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
+							<div className='m-auto'>
+								<Image src={gitImg} alt='/' width='64' height='64' />
+							</div>
+							<div className='flex flex-col items-center justify-center'>
+								<h3>Git</h3>
+							</div>
+						</div>
+					</div>
+					<div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 dark:bg-slate-600'>
+						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
+							<div className='m-auto'>
+								<Image src={dockerImg} alt='/' width='64' height='64' />
+							</div>
+							<div className='flex flex-col items-center justify-center'>
+								<h3>Docker</h3>
+							</div>
+						</div>
+					</div>
+					<div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 dark:bg-slate-600'>
+						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
+							<div className='m-auto'>
+								<Image src={jenkinsImg} alt='/' width='64' height='64' />
+							</div>
+							<div className='flex flex-col items-center justify-center'>
+								<h3>Jenkins</h3>
 							</div>
 						</div>
 					</div>
